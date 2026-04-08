@@ -8,13 +8,6 @@ const skillCategories = [
   { key: 'pedagogie',  icon: '▶',   skills: ['Bureautique', 'Programmation', 'Algorithmique', 'Réseaux', 'IA', 'Enfants & Lycéens'] },
 ];
 
-const languageLevels = [
-  { key: 'lang_ar', pct: 100 },
-  { key: 'lang_fr', pct: 85 },
-  { key: 'lang_en', pct: 80 },
-  { key: 'lang_ru', pct: 20 },
-];
-
 export default function Skills() {
   const { t } = useTranslation();
 
