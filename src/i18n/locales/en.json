@@ -1,0 +1,83 @@
+{
+  "nav": { "home": "Home", "about": "About", "skills": "Skills", "projects": "Projects", "experience": "Experience", "contact": "Contact" },
+  "hero": {
+    "greeting": "Hello, I am",
+    "title": "Software Developer & IT Trainer",
+    "description": "Master's Research student — Intelligent Information Systems. Passionate about mobile development, web and Artificial Intelligence.",
+    "btn_projects": "View my projects", "btn_contact": "Contact me"
+  },
+  "about": {
+    "title": "About me", "subtitle": "Who am I?",
+    "heading": "Passionate Developer & IT Trainer",
+    "p1": "Master 1 Research student in Intelligent Information Systems at ISIGK, holder of a Software Engineering degree (2025). I combine technical expertise and pedagogy to create innovative solutions.",
+    "p2": "Experienced in mobile development (React Native) and web (React), with a specialization in Supabase backends and clean architectures. IT trainer for children and high school students.",
+    "p3": "Motivated, adaptable, able to work under pressure within dynamic teams.",
+    "location_label": "Location", "location_value": "Grombalia, Nabeul, Tunisia",
+    "email_label": "Email", "formation_label": "Education",
+    "formation_value": "ISIGK — Master's Research (ongoing)",
+    "dispo_label": "Availability", "dispo_value": "Available for internship / project",
+    "cv": "Download my CV",
+    "stats": { "projects": "Major projects", "experience": "Years of experience", "languages": "Languages spoken", "certifications": "Certifications" }
+  },
+  "skills": {
+    "title": "My Skills", "subtitle": "Technologies and tools mastered", "languages_title": "Languages",
+    "categories": { "langages": "Programming Languages", "frameworks": "Frameworks & Tools", "domaines": "Domains", "pedagogie": "Teaching & Training" },
+    "lang_ar_name": "Arabic", "lang_ar_level": "Native language",
+    "lang_fr_name": "French", "lang_fr_level": "Advanced — B2+",
+    "lang_en_name": "English", "lang_en_level": "Advanced — B2+",
+    "lang_ru_name": "Russian", "lang_ru_level": "Beginner"
+  },
+  "projects": {
+    "title": "My Projects", "subtitle": "What I have built",
+    "btn_github": "GitHub", "btn_live": "View online", "btn_pdf": "PDF Report",
+    "type_research": "Master Research", "type_mobile": "Mobile App", "type_fullstack": "Full Stack", "type_web": "Web App",
+    "smah_subtitle": "Explainable Hybrid Multi-Agent System for Intelligent Study Planning",
+    "smah_desc": "Master research project — Explainable Hybrid Multi-Agent System (HMAS) for intelligent study planning. Combines a classic ML agent and a Neuro-Symbolic agent with an aggregation module.",
+    "smah_h1": "Formal explainability framework (HMAS)", "smah_h2": "ML Agent + Neuro-Symbolic Agent",
+    "smah_h3": "Full decision traceability", "smah_h4": "Standalone web interface + Python version",
+    "hydra_subtitle": "Smart Hydration Assistant",
+    "hydra_desc": "Intelligent mobile app that calculates and adapts daily water intake recommendations based on physiological profile, real-time physical activity and medical conditions.",
+    "hydra_h1": "Personalized medical algorithm", "hydra_h2": "Real-time step tracking",
+    "hydra_h3": "Adaptive smart notifications", "hydra_h4": "Clean Architecture + 3 AI agents",
+    "nebzo_subtitle": "Digital Restaurant Management System",
+    "nebzo_desc": "Full-stack restaurant management system — web admin dashboard and staff mobile app. Real-time orders, QR digital menu, employee management.",
+    "nebzo_h1": "250 simultaneous users — 0% errors", "nebzo_h2": "QR Code menu per table",
+    "nebzo_h3": "Supabase Realtime", "nebzo_h4": "EAS Build + deployed on Vercel",
+    "portfolio_subtitle": "Personal Portfolio — React",
+    "portfolio_desc": "Personal portfolio built with React, designed and coded from scratch. Modern design, responsive, deployed on GitHub Pages.",
+    "portfolio_h1": "100% custom design from scratch", "portfolio_h2": "Responsive mobile & desktop",
+    "portfolio_h3": "Google Analytics integrated", "portfolio_h4": "Deployed on GitHub Pages"
+  },
+  "experience": {
+    "title": "My Journey", "subtitle": "Experiences, education and certifications",
+    "work_title": "Experience", "edu_title": "Education", "certif_title": "Certifications",
+    "exp1_title": "Final Year Internship — Application Development", "exp1_date": "Feb. 2025 — Jun. 2025",
+    "exp1_t1": "Development of an institutional management application for ISIGK",
+    "exp1_t2": "Application dedicated to people with specific needs",
+    "exp2_title": "IT Trainer — Computer Club (5–15 years)", "exp2_date": "Summer 2024",
+    "exp2_t1": "Running 2 computer initiation groups for children",
+    "exp2_t2": "Pedagogy adapted to young learners",
+    "exp3_title": "IT Trainer — BAC STI Courses",
+    "exp3_company": "Independent teaching (remote)", "exp3_date": "Jan. 2024 — Apr. 2024",
+    "exp3_t1": "Training 2 students in STI subject at BAC level, online",
+    "exp3_t2": "Personalized support and progress tracking",
+    "exp4_title": "Technician Internship — React Native Mobile Development", "exp4_date": "Jun. 2023 — Sep. 2023",
+    "exp4_t1": "Design and development of a mobile application with React Native",
+    "exp4_t2": "First professional experience in mobile development",
+    "edu1_title": "Master 1 Research — Intelligent Information Systems", "edu1_date": "2025 — Present",
+    "edu2_title": "Bachelor's in Computer Science — Software Engineering", "edu2_date": "Obtained in 2025",
+    "certif1": "Public speaking — Coursera",
+    "certif2": "Online company presence (E-reputation) — Google",
+    "certif3": "First aid",
+    "certif4": "Project management and teamwork (Project / Team Manager)"
+  },
+  "contact": {
+    "title": "Contact Me", "subtitle": "Let's discuss your next project",
+    "name_label": "Full name", "name_placeholder": "Your name",
+    "email_label": "Email", "email_placeholder": "your@email.com",
+    "message_label": "Message", "message_placeholder": "Your message...",
+    "btn_send": "Send message", "btn_sent": "Message sent successfully!",
+    "location_label": "Location"
+  },
+  "footer": { "copy": "Software Developer & IT Trainer" }
+}

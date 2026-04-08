@@ -1,0 +1,46 @@
+.lang-select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background: white;
+  border: 1.5px solid var(--border);
+  border-radius: 50px;
+  padding: 6px 32px 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  color: var(--secondary);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.lang-select:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.lang-select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(5, 2, 214, 0.1);
+}
+
+.lang-arrow {
+  position: absolute;
+  right: 12px;
+  font-size: 0.7rem;
+  color: var(--text-light);
+  pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .lang-select {
+    font-size: 0.78rem;
+    padding: 5px 28px 5px 10px;
+  }
+}

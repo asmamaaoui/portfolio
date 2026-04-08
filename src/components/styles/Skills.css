@@ -1,0 +1,141 @@
+.skills {
+  background: var(--bg);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+.skill-category {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  transition: all 0.3s;
+}
+
+.skill-category:hover {
+  border-color: var(--primary);
+  box-shadow: 0 8px 30px rgba(0, 180, 216, 0.1);
+  transform: translateY(-4px);
+}
+
+.skill-cat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 180, 216, 0.1);
+  color: var(--primary);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.skill-cat-header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-chip {
+  background: var(--bg);
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  padding: 5px 14px;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.skill-chip:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+/* LANGUAGES */
+.languages-section {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 36px;
+}
+
+.lang-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 28px;
+}
+
+.lang-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.lang-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lang-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.lang-name {
+  font-weight: 600;
+  color: var(--secondary);
+  font-size: 0.95rem;
+}
+
+.lang-level {
+  font-size: 0.8rem;
+  color: var(--text-light);
+}
+
+.lang-bar-bg {
+  height: 6px;
+  background: var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.lang-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 10px;
+  transition: width 1s ease;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lang-list {
+    grid-template-columns: 1fr;
+  }
+}

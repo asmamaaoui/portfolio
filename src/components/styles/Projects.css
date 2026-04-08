@@ -1,0 +1,182 @@
+.projects {
+  background: white;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.project-card.reverse {
+  direction: rtl;
+}
+
+.project-card.reverse > * {
+  direction: ltr;
+}
+
+/* VISUAL */
+.project-visual {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-icon-box {
+  width: 90px;
+  height: 90px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.project-highlights {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.check {
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.project-type-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 4px 14px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* INFO */
+.project-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 4px;
+}
+
+.project-subtitle {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.project-desc {
+  color: var(--text-light);
+  font-size: 0.93rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.proj-tag {
+  border: 1px solid;
+  padding: 4px 14px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: transparent;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.proj-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid transparent;
+}
+
+.btn-github {
+  background: transparent;
+  color: #333;
+  border-color: #333;
+}
+.btn-github:hover {
+  background: #333;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-live {
+  color: white;
+  border: none;
+}
+.btn-live:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.btn-pdf {
+  background: transparent;
+  color: #DC2626;
+  border-color: #DC2626;
+}
+.btn-pdf:hover {
+  background: #DC2626;
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+  .project-card,
+  .project-card.reverse {
+    grid-template-columns: 1fr;
+    direction: ltr;
+    gap: 30px;
+  }
+
+  .project-card.reverse > * {
+    direction: ltr;
+  }
+
+  .project-title { font-size: 1.4rem; }
+}

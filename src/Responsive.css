@@ -1,0 +1,144 @@
+/* ================================================
+   RESPONSIVE — Mobile First
+   يغطي كل الـ components
+   ================================================ */
+
+/* ===== GLOBAL ===== */
+* {
+  box-sizing: border-box;
+}
+
+img, video {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 0 16px;
+}
+
+/* ================================================
+   TABLET — max 900px
+   ================================================ */
+@media (max-width: 900px) {
+
+  section { padding: 60px 0; }
+
+  /* HERO */
+  .hero-container {
+    flex-direction: column-reverse !important;
+    text-align: center;
+    gap: 32px;
+  }
+  .hero-name { font-size: 2.2rem !important; }
+  .hero-title { font-size: 1rem !important; }
+  .hero-description { margin: 0 auto 24px !important; }
+  .hero-badges, .hero-buttons, .hero-socials { justify-content: center; }
+  .hero-image-wrapper { width: 100%; display: flex; justify-content: center; }
+  .hero-image-ring { width: 220px !important; height: 220px !important; }
+
+  /* ABOUT */
+  .about-content { grid-template-columns: 1fr !important; gap: 32px !important; }
+  .about-stats { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* SKILLS */
+  .skills-grid { grid-template-columns: 1fr !important; }
+  .lang-list { grid-template-columns: 1fr !important; }
+
+  /* PROJECTS */
+  .project-card,
+  .project-card.reverse {
+    grid-template-columns: 1fr !important;
+    direction: ltr !important;
+    gap: 24px !important;
+  }
+  .project-card.reverse > * { direction: ltr !important; }
+  .project-title { font-size: 1.4rem !important; }
+
+  /* EXPERIENCE */
+  .exp-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+
+  /* CONTACT */
+  .contact-wrapper { grid-template-columns: 1fr !important; gap: 28px !important; }
+
+  /* FOOTER */
+  .footer-content {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 12px !important;
+  }
+}
+
+/* ================================================
+   MOBILE — max 480px
+   ================================================ */
+@media (max-width: 480px) {
+
+  section { padding: 48px 0; }
+  .section-title { font-size: 1.6rem !important; }
+
+  /* NAVBAR */
+  .nav-logo { font-size: 1.3rem !important; }
+
+  /* HERO */
+  .hero { padding-top: 90px !important; padding-bottom: 50px !important; }
+  .hero-name { font-size: 1.7rem !important; }
+  .hero-title { font-size: 0.88rem !important; }
+  .hero-description { font-size: 0.85rem !important; }
+  .hero-image-ring { width: 160px !important; height: 160px !important; }
+  .deco-circle { display: none !important; }
+
+  .hero-buttons {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100% !important;
+  }
+  .hero-buttons .btn { text-align: center !important; width: 100% !important; }
+  .social-btn { width: 38px !important; height: 38px !important; font-size: 0.9rem !important; }
+  .badge { font-size: 0.76rem !important; padding: 4px 10px !important; }
+
+  /* ABOUT */
+  .about-stats { grid-template-columns: 1fr 1fr !important; gap: 12px !important; }
+  .stat-number { font-size: 2.2rem !important; }
+  .about-text h3 { font-size: 1.1rem !important; }
+  .info-item { flex-direction: column; gap: 2px; }
+  .info-label { min-width: unset !important; }
+
+  /* SKILLS */
+  .skill-chips { gap: 6px !important; }
+  .skill-chip { font-size: 0.78rem !important; padding: 4px 10px !important; }
+  .languages-section { padding: 20px !important; }
+
+  /* PROJECTS */
+  .project-visual { padding: 20px !important; }
+  .project-icon-box { width: 65px !important; height: 65px !important; border-radius: 16px !important; }
+  .project-title { font-size: 1.2rem !important; }
+  .project-subtitle { font-size: 0.88rem !important; }
+  .project-desc { font-size: 0.85rem !important; }
+  .proj-tag { font-size: 0.75rem !important; padding: 3px 10px !important; }
+  .project-links { gap: 8px !important; }
+  .proj-btn { font-size: 0.8rem !important; padding: 8px 14px !important; }
+
+  /* EXPERIENCE */
+  .tl-content h4 { font-size: 0.88rem !important; }
+  .certif-item { font-size: 0.82rem !important; }
+  .exp-col-title { font-size: 1rem !important; }
+
+  /* CONTACT */
+  .contact-form { padding: 20px !important; }
+  .contact-card { padding: 14px !important; }
+  .contact-value { font-size: 0.82rem !important; }
+
+  /* FOOTER */
+  .footer-links { gap: 14px !important; flex-wrap: wrap; justify-content: center; }
+}
+
+/* ================================================
+   SMALL MOBILE — max 360px
+   ================================================ */
+@media (max-width: 360px) {
+  .hero-name { font-size: 1.5rem !important; }
+  .hero-image-ring { width: 140px !important; height: 140px !important; }
+  .about-stats { grid-template-columns: 1fr !important; }
+  .stat-card { padding: 20px !important; }
+}

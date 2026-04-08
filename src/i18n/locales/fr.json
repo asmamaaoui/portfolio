@@ -1,0 +1,83 @@
+{
+  "nav": { "home": "Accueil", "about": "À propos", "skills": "Compétences", "projects": "Projets", "experience": "Expérience", "contact": "Contact" },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "title": "Développeuse Logiciel & Formatrice en Informatique",
+    "description": "Étudiante en Master Recherche — Systèmes d'Information Intelligents. Passionnée par le développement mobile, le web et l'Intelligence Artificielle.",
+    "btn_projects": "Voir mes projets", "btn_contact": "Me contacter"
+  },
+  "about": {
+    "title": "À propos", "subtitle": "Qui suis-je ?",
+    "heading": "Développeuse passionnée & Formatrice en informatique",
+    "p1": "Étudiante en Master 1 Recherche en Systèmes d'Information Intelligents à l'ISIGK, titulaire d'une Licence en Génie Logiciel (2025). Je combine expertise technique et pédagogie pour créer des solutions innovantes.",
+    "p2": "Expérimentée en développement mobile (React Native) et web (React), avec une spécialisation en backends Supabase et architectures propres. Formatrice en informatique pour enfants et lycéens.",
+    "p3": "Motivée, adaptable, capable de travailler sous pression au sein d'équipes dynamiques.",
+    "location_label": "Localisation", "location_value": "Grombalia, Nabeul, Tunisie",
+    "email_label": "Email", "formation_label": "Formation",
+    "formation_value": "ISIGK — Master Recherche (en cours)",
+    "dispo_label": "Disponibilité", "dispo_value": "Disponible pour stage / projet",
+    "cv": "Télécharger mon CV",
+    "stats": { "projects": "Projets majeurs", "experience": "Années d'expérience", "languages": "Langues parlées", "certifications": "Certifications" }
+  },
+  "skills": {
+    "title": "Mes Compétences", "subtitle": "Technologies et outils maîtrisés", "languages_title": "Langues",
+    "categories": { "langages": "Langages", "frameworks": "Frameworks & Outils", "domaines": "Domaines", "pedagogie": "Pédagogie & Formation" },
+    "lang_ar_name": "Arabe", "lang_ar_level": "Langue maternelle",
+    "lang_fr_name": "Français", "lang_fr_level": "Avancé — B2+",
+    "lang_en_name": "Anglais", "lang_en_level": "Avancé — B2+",
+    "lang_ru_name": "Russe", "lang_ru_level": "Débutant"
+  },
+  "projects": {
+    "title": "Mes Projets", "subtitle": "Ce que j'ai construit",
+    "btn_github": "GitHub", "btn_live": "Voir en ligne", "btn_pdf": "Rapport PDF",
+    "type_research": "Recherche Master", "type_mobile": "Mobile App", "type_fullstack": "Full Stack", "type_web": "Web App",
+    "smah_subtitle": "Explainable Hybrid Multi-Agent System for Intelligent Study Planning",
+    "smah_desc": "Projet de recherche Master — Système Multi-Agent Hybride (HMAS) expliquable pour la planification intelligente des études.",
+    "smah_h1": "Framework formel d'explicabilité (HMAS)", "smah_h2": "Agent ML + Agent Neuro-Symbolique",
+    "smah_h3": "Traçabilité complète de chaque décision", "smah_h4": "Interface web standalone + version Python",
+    "hydra_subtitle": "Smart Hydration Assistant",
+    "hydra_desc": "Application mobile intelligente qui calcule et adapte les recommandations d'hydratation selon le profil physiologique, l'activité physique en temps réel et les conditions médicales.",
+    "hydra_h1": "Algorithme médical personnalisé", "hydra_h2": "Tracking de pas en temps réel",
+    "hydra_h3": "Notifications intelligentes adaptatives", "hydra_h4": "Clean Architecture + 3 agents IA",
+    "nebzo_subtitle": "Digital Restaurant Management System",
+    "nebzo_desc": "Système full-stack de gestion de restaurant — dashboard web admin et app mobile staff. Commandes en temps réel, menu digital QR, gestion employés.",
+    "nebzo_h1": "250 utilisateurs simultanés — 0% erreurs", "nebzo_h2": "Menu QR Code par table",
+    "nebzo_h3": "Temps réel Supabase Realtime", "nebzo_h4": "EAS Build + déployé sur Vercel",
+    "portfolio_subtitle": "Portfolio Personnel — React",
+    "portfolio_desc": "Portfolio personnel développé avec React, conçu et codé entièrement from scratch. Design moderne, responsive, déployé sur GitHub Pages.",
+    "portfolio_h1": "Design 100% custom from scratch", "portfolio_h2": "Responsive mobile & desktop",
+    "portfolio_h3": "Google Analytics intégré", "portfolio_h4": "Déployé sur GitHub Pages"
+  },
+  "experience": {
+    "title": "Mon Parcours", "subtitle": "Expériences, formation et certifications",
+    "work_title": "Expériences", "edu_title": "Formation", "certif_title": "Certifications",
+    "exp1_title": "Stage PFE — Développement d'Applications", "exp1_date": "Févr. 2025 — Juin 2025",
+    "exp1_t1": "Développement d'une application institutionnelle de gestion pour l'ISIGK",
+    "exp1_t2": "Application dédiée aux personnes à besoins spécifiques",
+    "exp2_title": "Formatrice en Informatique — Club (5–15 ans)", "exp2_date": "Été 2024",
+    "exp2_t1": "Animation de 2 groupes d'initiation à l'informatique pour enfants",
+    "exp2_t2": "Pédagogie adaptée aux jeunes apprenants",
+    "exp3_title": "Formatrice en Informatique — Cours BAC STI",
+    "exp3_company": "Enseignement indépendant (à distance)", "exp3_date": "Janv. 2024 — Avr. 2024",
+    "exp3_t1": "Formation de 2 élèves en matière STI niveau BAC, en ligne",
+    "exp3_t2": "Accompagnement personnalisé et suivi de progression",
+    "exp4_title": "Stage Technicien — Développement Mobile React Native", "exp4_date": "Juin 2023 — Sept. 2023",
+    "exp4_t1": "Conception et développement d'une application mobile avec React Native",
+    "exp4_t2": "Première expérience professionnelle en développement mobile",
+    "edu1_title": "Master 1 Recherche — Systèmes d'Information Intelligents", "edu1_date": "2025 — Présent",
+    "edu2_title": "Licence en Informatique — Génie Logiciel et SI", "edu2_date": "Obtenue en 2025",
+    "certif1": "Prise de parole en public — Coursera",
+    "certif2": "Présence des sociétés en ligne (E-réputation) — Google",
+    "certif3": "Premiers secours",
+    "certif4": "Gestion de projet et travail en équipe (Project / Team Manager)"
+  },
+  "contact": {
+    "title": "Me Contacter", "subtitle": "Discutons de votre prochain projet",
+    "name_label": "Nom complet", "name_placeholder": "Votre nom",
+    "email_label": "Email", "email_placeholder": "votre@email.com",
+    "message_label": "Message", "message_placeholder": "Votre message...",
+    "btn_send": "Envoyer le message", "btn_sent": "Message envoyé avec succès !",
+    "location_label": "Localisation"
+  },
+  "footer": { "copy": "Développeuse Logiciel & Formatrice" }
+}
