@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# Asma Maaoui — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains my personal portfolio website, developed using React.
+It presents my projects, technical skills, and experience in software engineering, mobile development, and intelligent systems.
 
-## Available Scripts
+Live Demo:
+https://asmamaaoui.github.io/portfolio/
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I am a software engineering student specializing in Intelligent Information Systems (SII).
+My work focuses on building scalable full-stack applications, mobile solutions, and AI-driven systems that solve real-world problems.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React (Create React App)
+* JavaScript (ES6+)
+* CSS3 (custom styling)
+* Framer Motion
+* React Icons
+* Git & GitHub
+* GitHub Pages
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### SMAH — Explainable Hybrid Multi-Agent System
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Master’s research project focused on intelligent study planning using a hybrid architecture combining machine learning and neuro-symbolic reasoning.
+The system ensures full traceability and explainability of decisions.
 
-### `npm run eject`
+### Hydra — Smart Hydration Assistant
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Mobile application developed using React Native and Supabase.
+Provides personalized hydration recommendations based on user profile, physical activity, and health conditions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Nebzo — Digital Restaurant Management System
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Full-stack system including a web admin dashboard and a mobile staff application.
+Features real-time order management, QR-based menu access, employee management, and multi-restaurant support.
+Successfully tested with high concurrency and real-time data synchronization.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Portfolio Website
 
-## Learn More
+Personal portfolio developed from scratch using React.
+Includes responsive design, project showcase, and integrated contact system.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+* Responsive design (mobile and desktop)
+* Clean and modern user interface
+* Structured project presentation
+* Integration of external links (GitHub, live demos)
+* Contact section with direct communication options
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+src/
+├── components/
+├── assets/
+├── App.js
+├── index.css
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+Clone the repository and install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+git clone https://github.com/asmamaaoui/portfolio.git
+cd portfolio
+npm install
 
-### Deployment
+Run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Build
+
+To generate a production build:
+
+npm run build
+
+---
+
+## Deployment
+
+This project is deployed using GitHub Pages.
+
+To deploy:
+
+npm run deploy
+
+---
+
+## Resume
+
+My CV is available in this repository:
+./CV_Asma_Maaoui.pdf
+
+---
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/maaoui-asma
+GitHub: https://github.com/asmamaaoui
+Email: [asmamaaoui520@gmail.com](mailto:asmamaaoui520@gmail.com)
+
+---
+
+## Notes
+
+This portfolio is continuously updated as I build new projects and improve existing systems.
